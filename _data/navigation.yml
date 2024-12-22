@@ -14,7 +14,7 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about/
   - title: "GitHub"
