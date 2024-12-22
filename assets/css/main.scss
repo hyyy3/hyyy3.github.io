@@ -18,3 +18,13 @@ search: false
   .container {
     max-width: 1500px; /* 전체 컨테이너 너비 */
   }
+
+
+.sidebar__left {
+    margin-left: -20px; /* 왼쪽으로 20px 이동 */
+    padding-right: 10px; /* 필요시 오른쪽 여백 추가 */
+}
+
+.sidebar__right {
+    max-width: 300px;
+}
