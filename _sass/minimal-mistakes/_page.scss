@@ -5,8 +5,6 @@
 #main {
   @include clearfix;
   margin-inline: auto;
-  padding-left: 1em;
-  padding-right: 1em;
   padding-inline: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -86,6 +84,12 @@ body {
 }
 
 .page__content {
+
+  max-width: 800px; /* 본문 최대 폭을 800px로 설정 */
+  margin-inline: auto; /* 본문을 수평 가운데 정렬 */
+  padding-inline: 1.5em; /* 본문 내부 여백 조정 */
+  line-height: 1.8; /* 가독성을 위해 줄 간격 조정 */
+  
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;

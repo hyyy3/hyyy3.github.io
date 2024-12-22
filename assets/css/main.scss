@@ -1,6 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
+# search: false
 ---
 
 @charset "utf-8";
@@ -23,12 +23,12 @@ search: false
 
 
 .sidebar__left {
-    margin-left: -300px; /* 왼쪽으로 20px 이동 */
+    margin-left: 300px; /* 왼쪽으로 20px 이동 */
     padding-right: 10px; /* 필요시 오른쪽 여백 추가 */
 }
 
 .sidebar__right {
-    max-width: 300px;
+    max-width: 200px;
     font-size: 16px;
     position: sticky; /* 또는 fixed */
     top: 20px;
