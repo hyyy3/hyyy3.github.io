@@ -14,7 +14,7 @@ search: false
     margin: 0 auto; /* 가운데 정렬 */
     padding: 20px; /* 여백 추가 */
     font-size: 16px; 
-    line-height: 1.6; /* 줄 간격 */
+    line-height: 1.4; /* 줄 간격 */
   }
 
   .container {
@@ -23,11 +23,16 @@ search: false
 
 
 .sidebar__left {
-    margin-left: -60px; /* 왼쪽으로 20px 이동 */
+    margin-left: -300px; /* 왼쪽으로 20px 이동 */
     padding-right: 10px; /* 필요시 오른쪽 여백 추가 */
 }
 
-
+.sidebar__right {
+    max-width: 300px;
+    font-size: 16px;
+    position: sticky; /* 또는 fixed */
+    top: 20px;
+}
 
 blockquote {
     margin: 0; /* 바깥 여백 제거 */

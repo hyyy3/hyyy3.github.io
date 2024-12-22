@@ -22,7 +22,7 @@ main:
   
 
 categories:
-  - title: "Projects and troubleshooting"
+  - title: "Projects & Trouble Shooting"
     children:
       - title: "Projects"
         url: /project/projects/

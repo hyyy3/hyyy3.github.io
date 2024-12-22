@@ -5,6 +5,8 @@
 #main {
   @include clearfix;
   margin-inline: auto;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-inline: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
