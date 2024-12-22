@@ -16,7 +16,7 @@ search: false
     font-size: 16px; 
     line-height: 1.6; /* 줄 간격 */
   }
-  
+
   .container {
     max-width: 1800px; /* 전체 컨테이너 너비 */
   }
@@ -27,13 +27,7 @@ search: false
     padding-right: 10px; /* 필요시 오른쪽 여백 추가 */
 }
 
-.sidebar__right {
-    max-width: 360px;
-    font-size: 16px;
-    position: sticky;
-    top: 24px; /* 스크롤 시 상단에서 20px 간격 유지 */
-    align-self: flex-start; /* flexbox 컨텍스트에서 사용 시 필요 */
-}
+
 
 blockquote {
     margin: 0; /* 바깥 여백 제거 */

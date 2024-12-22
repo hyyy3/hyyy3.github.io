@@ -92,6 +92,12 @@ last_modified_at: 2024-12-23 02:05:01+0900
   - java.nio.channels 에 있는 ScatteringByteChannel, GatheringByteChannel 인터페이스 사용
 
 
+적용예 :   
+
+> This is a first
+>   > This is a second 
+>   >   > This is a third 
+
 - 가상 메모리
   - 프로그램에서 가상메모리를 사용하게 되면 유저 영역 버퍼와 커널 영역 버퍼를 mapping 시킴으로써 커널 영역에서 유저 영역으로 데이터를 복사하지 않아도 된다.
   - 디스크 컨트롤러부터 읽어온 데이터를 커널 영역에 전달하는 것은 곧 동시에 유저 영역 버퍼에 저장하는 것이다.
