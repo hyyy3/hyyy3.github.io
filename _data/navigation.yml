@@ -41,52 +41,52 @@ main:
 categories:
   - title: "Projects and troubleshooting"
   children:
-      - title: "Projects"
-        url: /project/projects/
-      - title: "Trouble Shooting"
-        url: /project/troubleshooting/
+    - title: "Projects"
+      url: /project/projects/
+    - title: "Trouble Shooting"
+      url: /project/troubleshooting/
 
   - title: "Programming Language"
   children:
-      - title: "Java"
-        url: /programming/java/
-      - title: "Modern Java In Action"
-        url: /programming/modernjava/
-      - title: "C++"
-        url: /programming/cpp/
+    - title: "Java"
+      url: /programming/java/
+    - title: "Modern Java In Action"
+      url: /programming/modernjava/
+    - title: "C++"
+      url: /programming/cpp/
   
   - title: "Web Development"
   children:
-      - title: "JSP"
-        url: /programming/jsp/
-      - title: "Spring Boot"
-        url: /programming/springboot/
-      - title: "AWS"
-        url: /programming/aws/
-      - title: "Database"
-        url: /programming/database/
+    - title: "JSP"
+      url: /programming/jsp/
+    - title: "Spring Boot"
+      url: /programming/springboot/
+    - title: "AWS"
+      url: /programming/aws/
+    - title: "Database"
+      url: /programming/database/
 
   - title: "Algorithms"
   children:
-      - title: "자료구조"
-        url: /algorithms/structures/
-      - title: "알고리즘"
-        url: /algorithms/algorithms/
-      - title: "Backjoon"
-        url: /algorithms/backjoon/
-      - title: "ps others"
-        url: /algorithms/ps/
+    - title: "자료구조"
+      url: /algorithms/structures/
+    - title: "알고리즘"
+      url: /algorithms/algorithms/
+    - title: "Backjoon"
+      url: /algorithms/backjoon/
+    - title: "ps others"
+      url: /algorithms/ps/
 
   - title: "Game Dev"
   children:
-      - title: "컴퓨터 그래픽스 with OpenGL"
-        url: /game/opengl/
-      - title: "Vulkan"
-        url: /game/vulkan/
-      - title: "Unreal Engine"
-        url: /game/unreal/
-      - title: "Unity"
-        url: /game/unity/
+    - title: "컴퓨터 그래픽스 with OpenGL"
+      url: /game/opengl/
+    - title: "Vulkan"
+      url: /game/vulkan/
+    - title: "Unreal Engine"
+      url: /game/unreal/
+    - title: "Unity"
+      url: /game/unity/
 
 
 
@@ -102,6 +102,7 @@ docs:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
+
   - title: Customization
     children:
       - title: "Configuration"
@@ -116,6 +117,7 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
+
   - title: Content
     children:
       - title: "Working with Posts"
