@@ -1,11 +1,11 @@
 ---
-title: "blog test용 샘플 파일일"
+title: "blog test용 샘플 파일"
 excerpt: "NP"
 
 categories:
   - Projects
 tags:
-  - [study, Projects]
+  - [study]
 
 permalink: projects/sample
 
