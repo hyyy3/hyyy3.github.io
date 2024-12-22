@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+.page__content {
+    max-width: 900px; /* 기본 너비를 넓힘 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px; /* 여백 추가 */
+  }
+  
+  .container {
+    max-width: 1200px; /* 전체 컨테이너 너비 */
+  }
