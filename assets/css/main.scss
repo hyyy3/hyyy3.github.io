@@ -28,13 +28,17 @@ search: false
 }
 
 .sidebar__right {
-    max-width: 300px;
+    max-width: 360px;
+    font-size: 14px;
+    position: sticky;
+    top: 20px; /* 스크롤 시 상단에서 20px 간격 유지 */
+    align-self: flex-start; /* flexbox 컨텍스트에서 사용 시 필요 */
 }
 
 blockquote {
     margin: 0; /* 바깥 여백 제거 */
     padding: 10px; /* 안쪽 여백 줄이기 */
     line-height: 1.4; /* 줄 간격 조정 */
-    border-left: 4px solid #ccc; /* 기본 인용 세로줄 */
+    border-left: 4px solid #aaa; /* 기본 인용 세로줄 */
     background-color: #f9f9f9; /* 선택적 배경색 */
   }
