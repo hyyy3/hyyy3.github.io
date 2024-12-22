@@ -18,7 +18,7 @@ search: false
   }
   
   .container {
-    max-width: 1500px; /* 전체 컨테이너 너비 */
+    max-width: 1800px; /* 전체 컨테이너 너비 */
   }
 
 
@@ -30,3 +30,11 @@ search: false
 .sidebar__right {
     max-width: 300px;
 }
+
+blockquote {
+    margin: 0; /* 바깥 여백 제거 */
+    padding: 10px; /* 안쪽 여백 줄이기 */
+    line-height: 1.4; /* 줄 간격 조정 */
+    border-left: 4px solid #ccc; /* 기본 인용 세로줄 */
+    background-color: #f9f9f9; /* 선택적 배경색 */
+  }
