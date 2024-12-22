@@ -18,6 +18,15 @@ foo:
       - title: "Child Link 3"
         url: /child-3-page-url/
 
+#
+# - title: "Sample Posts"
+#    url: /year-archive/
+#  - title: "Sample Collections"
+#    url: /collection-archive/
+#  - title: "Terms &amp; Privacy Policy"
+#    url: /terms/#
+#
+#
 
 # main links
 main:
@@ -25,12 +34,9 @@ main:
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "GitHub"
+    url: https://github.com/hyyy3
+  
 
 
 # documentation links
