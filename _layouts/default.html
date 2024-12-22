@@ -44,7 +44,7 @@
       ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
           width:0px;
           height: 0px;
-          /* background-color: rgb(14, 221, 24);     {% include_cached browser-upgrade.html %} */ 
+          /* background-color: rgb(14, 221, 24);      */ 
           /* border-radius: 50%; */
       }
     </style>
@@ -72,6 +72,7 @@
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
+        {% include_cached browser-upgrade.html %}
         {% include_cached footer.html %}
       </footer>
     </div>
