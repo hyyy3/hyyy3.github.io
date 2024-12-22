@@ -14,21 +14,8 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-      <!-- 사이드바 추가 -->
-      <aside>
-        {% include sidebar.html %}
-      </aside>
-
-      <!-- 메인 콘텐츠 -->
-      <main>
-        {{ content }}
-        {% include after-content.html %}
-      </main>
-    </div>
-
-    <!-- Author 정보 추가 -->
-    <div class="author-info">
-      {% include author.html %}
+      {{ content }}
+      {% include after-content.html %}
     </div>
 
     {% if site.search == true %}
