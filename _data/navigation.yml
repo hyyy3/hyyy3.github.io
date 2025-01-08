@@ -32,7 +32,7 @@ categories:
   - title: "Computer Science"
     children:
       - title: "note"
-        url: /cs/notes/s
+        url: /cs/notes/
       - title: "정보처리기사"
         url: /cs/eip/
 
