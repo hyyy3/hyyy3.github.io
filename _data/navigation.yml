@@ -33,7 +33,7 @@ categories:
     children:
       - title: "note"
         url: /cs/notes/s
-      - title: "정보처리기사사"
+      - title: "정보처리기사"
         url: /cs/eip/
 
   - title: "Programming Language"
