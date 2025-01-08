@@ -49,8 +49,8 @@ categories:
     children:
       - title: "JSP"
         url: /programming/jsp/
-      - title: "Spring Boot"
-        url: /programming/springboot/
+      - title: "Spring"
+        url: /programming/spring/
       - title: "AWS"
         url: /programming/aws/
       - title: "Database"
