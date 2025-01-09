@@ -173,6 +173,7 @@ hr {
 
 /* lists */
 
+/*
 ul li,
 ol li {
   margin-bottom: 0.5em;
@@ -181,6 +182,19 @@ ol li {
 li ul,
 li ol {
   margin-top: 0.5em;
+}
+  */
+
+ul,
+ol {
+  padding-left: 20px; /* 들여쓰기 간격 줄이기 */
+  margin-left: 0;     /* 필요 시 마진 제거 */
+}
+
+li ul,
+li ol {
+  margin-top: 0.5em;
+  padding-left: 20px; /* 하위 리스트의 들여쓰기 간격 줄이기 */
 }
 
 /*
