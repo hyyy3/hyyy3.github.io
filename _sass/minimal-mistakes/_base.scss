@@ -191,6 +191,11 @@ ol {
   margin-left: 0;     /* 필요 시 마진 제거 */
 }
 
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+}
+
 li ul,
 li ol {
   margin-top: 0.5em;
