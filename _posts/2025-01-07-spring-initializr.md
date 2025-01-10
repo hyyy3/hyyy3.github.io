@@ -68,7 +68,7 @@ last_modified_at: 2025-01-07 02:05:01+0900
   - **Spring Web**: RESTful 웹 애플리케이션을 개발할 때 필요한 의존성입니다.
   - **Spring Data JPA**: 데이터베이스와의 연동을 위한 ORM(Object-Relational Mapping) 라이브러리입니다.
   - **Spring Security**: 인증 및 권한 부여를 위한 보안 프레임워크입니다.
-  - **Thymeleaf**: 서버 사이드 템플릿 엔진으로, HTML 뷰를 렌더링할 때 사용됩니다.
+  - **Thymeleaf**: 서x버 사이드 템플릿 엔진으로, HTML 뷰를 렌더링할 때 사용됩니다.
 
 ---
 

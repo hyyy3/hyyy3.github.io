@@ -1,9 +1,9 @@
 ---
-title: "Database"
+title: "운영체제"
 layout: category
-permalink: /cs/db/
+permalink: /cs/os/
 author_profile: true
-taxonomy: Database
+taxonomy: 운영체제
 sidebar:
   nav: "categories"
 ---

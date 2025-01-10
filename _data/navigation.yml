@@ -31,16 +31,20 @@ categories:
 
   - title: "Computer Science"
     children:
-      - title: "csnote"
-        url: /cs/csnotes/
-      - title: "정보처리기사"
-        url: /cs/eip/
+      - title: "note"
+        url: /cs/notes/
+      - title: "운영체제"
+        url: /cs/os/
+      - title: "컴퓨터구조"
+        url: /cs/hw/
+      - title: "Database"
+        url: /cs/db/
 
   - title: "Programming Language"
     children:
       - title: "Java"
         url: /programming/java/
-      - title: "Modern Java In Action"
+      - title: "Modern Java"
         url: /programming/modernjava/
       - title: "C++"
         url: /programming/cpp/
@@ -53,8 +57,6 @@ categories:
         url: /programming/spring/
       - title: "AWS"
         url: /programming/aws/
-      - title: "Database"
-        url: /programming/database/
 
   - title: "Algorithms"
     children:
