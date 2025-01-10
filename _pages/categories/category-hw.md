@@ -1,9 +1,9 @@
 ---
-title: "운영체제"
+title: "컴퓨터구조"
 layout: category
-permalink: /cs/os/
+permalink: /cs/hw/
 author_profile: true
-taxonomy: 운영체제
+taxonomy: 컴퓨터구조
 sidebar:
   nav: "categories"
 ---

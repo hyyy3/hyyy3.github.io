@@ -1,9 +1,9 @@
 ---
-title: "csnote"
+title: "note"
 layout: category
-permalink: /cs/csnotes/
+permalink: /cs/notes/
 author_profile: true
-taxonomy: csnote
+taxonomy: note
 sidebar:
   nav: "categories"
 ---
