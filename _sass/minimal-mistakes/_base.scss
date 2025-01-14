@@ -272,7 +272,11 @@ ul ul {
   padding-inline-start: 10px;
 }
 
-
+ul, ol {
+  list-style-position: inside; /* 구분 기호를 안쪽에 배치하여 간격 줄임 */
+  padding-left: 0; /* 리스트의 왼쪽 패딩 제거 */
+  margin-left: 0; /* 필요 시 마진 제거 */
+}
 
 
 
