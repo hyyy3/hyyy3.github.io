@@ -22,8 +22,10 @@ last_modified_at: 2025-01-07 02:05:01+0900
 
 ## **Spring Initializr로 프로젝트 생성하기**
 
-<img src="{{ site.baseurl }}/assets/images/spring/sample_initspring.jpg" alt="Spring Initializr" width="600" height="450">
+<img src="{{ site.baseurl }}/assets/images/spring/Spring_initializr.jpg" alt="Spring Initializr" width="600" height="450">
 
+<p>Spring Initializr는 Spring boot 기반으로 Spring 관련 프로젝트를 만드는 기능을 제공해준다.
+<p>
 [Spring Initializr](https://start.spring.io)에 접속하면 위와 같은 설정 화면이 보일 것이다.
 각 항목의 요소는 다음과 같습니다.
 
@@ -31,6 +33,7 @@ last_modified_at: 2025-01-07 02:05:01+0900
 
 ### **Project**
 **Maven**, **Gradle** 중 원하는 빌드 도구를 선택한다.
+<p> 최근에는 Gradle을 많이 사용하는 추세이다.
 
 ---
 
@@ -40,8 +43,8 @@ last_modified_at: 2025-01-07 02:05:01+0900
 ---
 
 ### **Spring Boot**
-사용할 **Spring Boot 버전**을 선택한다. SNAPSHOT이 아닌 버전을 고르면 된다.
-참고로 2025년 현재 Spring Boot 3 이전 버전은 지원하지 않는다. 그래서 Java 17 이상이 필요하다.
+사용할 **Spring Boot 버전**을 선택한다. SNAPSHOT이나 M1이 아닌 정식 버전(아무것도 없는것)을 고르면 된다.
+참고로 2025년 현재 Spring initializr에서 Spring Boot 3 이전 버전은 지원하지 않는다. 그래서 Java 17 이상이 필요하다.
 
 ---
 
@@ -64,11 +67,11 @@ last_modified_at: 2025-01-07 02:05:01+0900
 필요한 **의존성(Dependencies)**을 추가한다. 
 여기서 추가하지 않고, 직접 빌드 설정 파일에서 입력하거나, 필요 시 추가해도 된다. 
 - 의존성은 Spring Boot 애플리케이션에서 사용할 라이브러리 모음입니다.
-- 주요 의존성 예시:
+- 사진은 예시입니다. 만약 잘못 설정했을 경우에도, 나중에 빌드 설정 파일에서 바꾸면 됩니다.:
   - **Spring Web**: RESTful 웹 애플리케이션을 개발할 때 필요한 의존성입니다.
-  - **Spring Data JPA**: 데이터베이스와의 연동을 위한 ORM(Object-Relational Mapping) 라이브러리입니다.
+  - **Thymeleaf**: 데이터베이스와의 연동을 위한 ORM(Object-Relational Mapping) 라이브러리입니다.
   - **Spring Security**: 인증 및 권한 부여를 위한 보안 프레임워크입니다.
-  - **Thymeleaf**: 서x버 사이드 템플릿 엔진으로, HTML 뷰를 렌더링할 때 사용됩니다.
+  - **Spring for Apache Kafka Streams**: 서x버 사이드 템플릿 엔진으로, HTML 뷰를 렌더링할 때 사용됩니다.
 
 ---
 

@@ -39,6 +39,8 @@ categories:
         url: /cs/hw/
       - title: "Database"
         url: /cs/db/
+      - title: "Network"
+        url: /cs/network/
 
   - title: "Programming Language"
     children:
