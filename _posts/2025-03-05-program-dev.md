@@ -1,9 +1,8 @@
 ---
 title: "Program Develop"
-excerpt: "Network"
+excerpt: "프로그램 개발 과정 간단 요약"
 
-categories:
-  - Program Dev
+
 tags:
   - [study]
 
