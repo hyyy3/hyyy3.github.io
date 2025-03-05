@@ -25,7 +25,7 @@ categories:
   - title: "Projects & Trouble Shooting"
     children:
       - title: "Program Dev"
-        url: /projects/dev/
+        url: /project/dev/
       - title: "Projects"
         url: /project/projects/
       - title: "Trouble Shooting"
