@@ -3,7 +3,7 @@ title: "Program Dev"
 layout: category
 permalink: /project/dev/
 author_profile: true
-taxonomy: Dev
+taxonomy: Program Dev
 sidebar:
   nav: "categories"
 ---
