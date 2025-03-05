@@ -323,6 +323,7 @@ defaults:
       path: ""
       type: posts
     values:
+      categories: []
       layout: single
       # classes: wide
       author_profile: true
