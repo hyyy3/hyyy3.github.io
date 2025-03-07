@@ -1,7 +1,7 @@
 ---
 title: "AWS"
 layout: category
-permalink: /programming/aws/
+permalink: /blog/programming/aws/
 author_profile: true
 taxonomy: AWS
 sidebar:

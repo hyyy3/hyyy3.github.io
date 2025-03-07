@@ -1,7 +1,7 @@
 ---
 title: "Modern Java"
 layout: category
-permalink: /programming/modernjava/
+permalink: /blog/programming/modernjava/
 author_profile: true
 taxonomy: Modern Java
 sidebar:

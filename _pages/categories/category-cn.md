@@ -1,7 +1,7 @@
 ---
 title: "Network"
 layout: category
-permalink: /cs/network/
+permalink: /blog/cs/network/
 author_profile: true
 taxonomy: Network
 sidebar:

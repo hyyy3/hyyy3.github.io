@@ -1,7 +1,7 @@
 ---
 title: "Database"
 layout: category
-permalink: /cs/db/
+permalink: /blog/cs/db/
 author_profile: true
 taxonomy: Database
 sidebar:

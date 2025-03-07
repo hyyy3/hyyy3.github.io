@@ -1,7 +1,7 @@
 ---
 title: "JSP"
 layout: category
-permalink: /programming/jsp/
+permalink: /blog/programming/jsp/
 author_profile: true
 taxonomy: JSP
 sidebar:

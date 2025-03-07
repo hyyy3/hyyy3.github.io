@@ -1,7 +1,7 @@
 ---
 title: "Unity"
 layout: category
-permalink: /game/unity/
+permalink: /blog/game/unity/
 author_profile: true
 taxonomy: Unity
 sidebar:

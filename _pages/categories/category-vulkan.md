@@ -1,7 +1,7 @@
 ---
 title: "Vulkan"
 layout: category
-permalink: /game/vulkan/
+permalink: /blog/game/vulkan/
 author_profile: true
 taxonomy: Vulkan
 sidebar:

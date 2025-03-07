@@ -1,7 +1,7 @@
 ---
 title: "Unreal Engine"
 layout: category
-permalink: /game/unreal/
+permalink: /blog/game/unreal/
 author_profile: true
 taxonomy: Unreal Engine
 sidebar:

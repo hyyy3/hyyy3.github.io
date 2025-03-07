@@ -1,7 +1,7 @@
 ---
 title: "note"
 layout: category
-permalink: /cs/notes/
+permalink: /blog/cs/notes/
 author_profile: true
 taxonomy: note
 sidebar:

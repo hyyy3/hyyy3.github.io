@@ -1,7 +1,7 @@
 ---
 title: "Backjoon"
 layout: category
-permalink: /algorithms/backjoon/
+permalink: /blog/algorithms/backjoon/
 author_profile: true
 taxonomy: Backjoon
 sidebar:

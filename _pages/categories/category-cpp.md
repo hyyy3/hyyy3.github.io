@@ -1,7 +1,7 @@
 ---
 title: "c++"
 layout: category
-permalink: /programming/cpp/
+permalink: /blog/programming/cpp/
 author_profile: true
 taxonomy: c++
 sidebar:
