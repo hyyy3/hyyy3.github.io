@@ -16,7 +16,7 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: /about/
+    url: /blog/about/
   - title: "GitHub"
     url: https://github.com/hyyy3
   
@@ -25,64 +25,64 @@ categories:
   - title: "Projects & Trouble Shooting"
     children:
       - title: "Program Dev"
-        url: /project/dev/
+        url: /blog/project/dev/
       - title: "Projects"
-        url: /project/projects/
+        url: /blog/project/projects/
       - title: "Trouble Shooting"
-        url: /project/troubleshooting/
+        url: /blog/project/troubleshooting/
 
   - title: "Computer Science"
     children:
       - title: "note"
-        url: /cs/notes/
+        url: /blog/cs/notes/
       - title: "운영체제"
-        url: /cs/os/
+        url: /blog/cs/os/
       - title: "컴퓨터구조"
-        url: /cs/hw/
+        url: /blog/cs/hw/
       - title: "Database"
-        url: /cs/db/
+        url: /blog/cs/db/
       - title: "Network"
-        url: /cs/network/
+        url: /blog/cs/network/
 
   - title: "Programming Language"
     children:
       - title: "Java"
-        url: /programming/java/
+        url: /blog/programming/java/
       - title: "Modern Java"
-        url: /programming/modernjava/
+        url: /blog/programming/modernjava/
       - title: "C++"
-        url: /programming/cpp/
+        url: /blog/programming/cpp/
   
   - title: "Web Development"
     children:
       - title: "JSP"
-        url: /programming/jsp/
+        url: /blog/programming/jsp/
       - title: "Spring"
-        url: /programming/spring/
+        url: /blog/programming/spring/
       - title: "AWS"
-        url: /programming/aws/
+        url: /blog/programming/aws/
 
   - title: "Algorithms"
     children:
       - title: "자료구조"
-        url: /algorithms/structures/
+        url: /blog/algorithms/structures/
       - title: "알고리즘"
-        url: /algorithms/algorithms/
+        url: /blog/algorithms/algorithms/
       - title: "Backjoon"
-        url: /algorithms/backjoon/
+        url: /blog/algorithms/backjoon/
       - title: "ps others"
-        url: /algorithms/ps/
+        url: /blog/algorithms/ps/
 
   - title: "Game Dev"
     children:
       - title: "컴퓨터 그래픽스 with OpenGL"
-        url: /game/opengl/
+        url: /blog/game/opengl/
       - title: "Vulkan"
-        url: /game/vulkan/
+        url: /blog/game/vulkan/
       - title: "Unreal Engine"
-        url: /game/unreal/
+        url: /blog/game/unreal/
       - title: "Unity"
-        url: /game/unity/
+        url: /blog/game/unity/
 
 
 

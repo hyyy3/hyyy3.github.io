@@ -7,7 +7,7 @@ categories:
 tags:
   - [study]
 
-permalink: structures/post0
+permalink: /blog/algorithms/structures/post0
 
 toc: true
 toc_sticky: true

@@ -7,7 +7,7 @@ categories:
 tags:
   - [study]
 
-permalink: projects/sample
+permalink: /blog/project/projects/sample
 
 toc: true
 toc_sticky: true

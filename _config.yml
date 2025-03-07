@@ -334,3 +334,4 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
+      permalink: /blog/:categories/:title/

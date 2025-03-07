@@ -7,7 +7,7 @@ categories:
 tags:
   - [study]
 
-permalink: network/post0
+permalink: /blog/cs/network/post0
 
 toc: true
 toc_sticky: true

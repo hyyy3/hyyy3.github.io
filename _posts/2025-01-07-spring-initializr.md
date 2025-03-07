@@ -7,7 +7,7 @@ categories:
 tags:
   - [study]
 
-permalink: spring/initializr
+permalink: /blog/programming/spring/initializr
 
 toc: true
 toc_sticky: true

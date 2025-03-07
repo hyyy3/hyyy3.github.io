@@ -7,7 +7,7 @@ categories:
 tags:
   - [study]
 
-permalink: dev/dev1
+permalink: /blog/project/dev/dev1
 
 toc: true
 toc_sticky: true
