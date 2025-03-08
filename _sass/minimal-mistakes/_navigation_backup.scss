@@ -118,10 +118,10 @@
 
   /* next/previous buttons */
   &--pager {
-    display: inline-block; /* 중앙 정렬을 위해 block에서 inline-block으로 변경 */
-    padding: 0.8em 1.5em; /* 패딩을 줄여 폭을 줄임 */
-    width: auto; /* 고정 폭(50%)을 제거하고 내용에 맞게 설정 */
-    max-width: 200px; /* 버튼 최대 너비 제한 */
+    display: block;
+    padding: 1em 2em;
+    float: inline-start;
+    width: 50%;
     font-family: $sans-serif;
     font-size: $type-size-5;
     font-weight: bold;
@@ -130,8 +130,7 @@
     color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
-    margin: 10px auto; /* 위/아래 여백 추가, auto로 중앙 정렬 */
-    
+
     &:hover {
       @include yiq-contrasted($muted-text-color);
     }
@@ -153,7 +152,6 @@
       cursor: not-allowed;
     }
   }
-  
 }
 
 .page__content + .pagination,

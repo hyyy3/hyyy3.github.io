@@ -85,16 +85,14 @@ body {
 
 .page__content {
 
-  max-width: 840px; /* 본문 최대 폭을 800px로 설정 */
+  max-width: 800px; /* 본문 최대 폭을 800px로 설정 */
   margin-inline: auto; /* 본문을 수평 가운데 정렬 */
   padding-inline: 1.5em; /* 본문 내부 여백 조정 */
   line-height: 1.8; /* 가독성을 위해 줄 간격 조정 */
   
   h2 {
     padding-bottom: 0.5em;
-    /* background-color: $border-color; */
-    font-weight: bold;
-    border-bottom: 0px solid $border-color; /*바닥에 수평선*/
+    border-bottom: 1px solid $border-color;
   }
 
 	h1, h2, h3, h4, h5, h6 {

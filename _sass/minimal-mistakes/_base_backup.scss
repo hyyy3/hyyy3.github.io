@@ -36,12 +36,10 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
-  font-weight: bold;
 }
 
 h2 {
   font-size: $h-size-2;
-  font-weight: bold;
 }
 
 h3 {
@@ -170,7 +168,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 2px solid $border-color;
+  border-top: 1px solid $border-color;
 }
 
 /* lists */
