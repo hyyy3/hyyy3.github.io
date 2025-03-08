@@ -55,6 +55,8 @@ categories:
   
   - title: "Web Development"
     children:
+      - title: "Web"
+        url: /blog/programming/web/
       - title: "JSP"
         url: /blog/programming/jsp/
       - title: "Spring"
