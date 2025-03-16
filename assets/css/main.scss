@@ -9,6 +9,22 @@
 @import "minimal-mistakes"; // main partials
 
 
+
+@font-face {
+  font-family: 'BM HANNA Air';
+  src: url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff2') format('woff2'),
+     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff') format('woff'),
+     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'BM HANNA Air', sans-serif;
+}
+
+
 .page__content {
     max-width: 1200px; /* 기본 너비를 넓힘 */
     margin: 0 auto; /* 가운데 정렬 */
