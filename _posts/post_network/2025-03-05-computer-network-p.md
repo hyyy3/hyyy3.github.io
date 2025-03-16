@@ -20,7 +20,7 @@ last_modified_at: 2025-01-07 02:05:01+0900
 
  <style>
         body{
-            font-family: 'S-CoreDream-3Light';
+            font-family: 'GowunDodum-Regular';
         }
         h2 {
            font-family: 'BMHANNAAir';

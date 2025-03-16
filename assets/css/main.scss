@@ -36,10 +36,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
 
 body {
-  font-family: 'S-CoreDream-3Light', sans-serif;
+  /*font-family: 'Noto Sans KR', sans-serif;*/
+  font-family: 'GowunDodum-Regular';
+  
 }
 
 .page__title {
@@ -61,6 +71,14 @@ body {
       padding-bottom: .5em;
       font-weight: normal;
       border-bottom: 0px solid rgb(241.7, 242.5, 243.1);
+    }
+
+    h2 {
+      color: #3F0099;
+    }
+
+    h3 {
+      color: #670000;
     }
   }
 
