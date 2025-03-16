@@ -43,7 +43,6 @@
   > * {
     margin-top: 1em;
     margin-bottom: 1em;
-    font-family: 'BMDOHYEON';
   }
 
   h2,
@@ -57,9 +56,7 @@
 
   p,
   li {
-    font-family: 'BMHANNAAir';
-    /* font-family: $sans-serif; 
-    font-family: 'BMDOHYEON'; */
+    font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -75,7 +72,6 @@
 }
 
 .sidebar__right {
-  font-family: "S-CoreDream-3Light";
   margin-bottom: 1em;
 
   @include breakpoint($large) {
@@ -96,7 +92,6 @@
 
       .toc {
         .toc__menu {
-          font-family: "S-CoreDream-3Light";
           overflow-y: auto;
           max-height: calc(100vh - 7em);
         }
@@ -176,9 +171,8 @@
   }
 }
 .sidebar .author__name {
-  font-family: 'BMDOHYEON';
+  font-family: $sans-serif;
   font-size: $type-size-5;
-  font-weight: normal;
 }
 
 .author__bio {

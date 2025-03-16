@@ -8,22 +8,46 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
-
 @font-face {
-  font-family: 'BM HANNA Air';
-  src: url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff2') format('woff2'),
-     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff') format('woff'),
-     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.ttf') format('truetype');
-
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: 'BM HANNA Air', sans-serif;
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'BMDOHYEON';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: 'S-CoreDream-3Light', sans-serif;
+}
+
+.page__title {
+  font-family: 'BMDOHYEON';
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 1;
+}
 
 .page__content {
     max-width: 1200px; /* 기본 너비를 넓힘 */
@@ -31,7 +55,15 @@ body {
     padding: 20px; /* 여백 추가 */
     font-size: 16px; 
     line-height: 1.4; /* 줄 간격 */
+
+    h1, h2, h3 {
+      font-family: 'BMDOHYEON', sans-serif;
+      padding-bottom: .5em;
+      font-weight: normal;
+      border-bottom: 0px solid rgb(241.7, 242.5, 243.1);
+    }
   }
+
 
   .container {
     max-width: 1800px; /* 전체 컨테이너 너비 */
@@ -66,3 +98,29 @@ blockquote {
   }
 
   
+
+
+
+
+
+
+
+
+
+  /*
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff2') format('woff2'),
+     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.woff') format('woff'),
+     url('{{ site.baseurl }}/assets/fonts/BMHANNAAir.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+*/

@@ -19,6 +19,7 @@ last_modified_at: 2025-03-08 20:00:01+0900
 ---
 
 <style>
+    
     table {
         width: 100%; /* 테이블을 페이지 전체 너비에 맞춤 */
         border-collapse: collapse; /* 테두리 겹침 제거 */

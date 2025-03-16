@@ -301,9 +301,10 @@ body {
    ========================================================================== */
 
 .page__meta {
+  font-family: "BMJUA";
   margin-top: 2em;
   color: $muted-text-color;
-  font-family: $sans-serif;
+  /* font-family: $sans-serif; */
   font-size: $type-size-6;
 
   p {

@@ -19,13 +19,16 @@ last_modified_at: 2025-01-07 02:05:01+0900
 ---
 
  <style>
-        
+        body{
+            font-family: 'S-CoreDream-3Light';
+        }
         h2 {
-            border: 2px solid blue;  /* 파란색 테두리 */
-            padding: 8px;           /* 텍스트와 테두리 간격 */
-            display: inline-block;   /* 텍스트 크기에 맞는 테두리 */
-            border-radius: 10px; /* 둥근 테두리 */
-            display: inline-block;   /* 텍스트 크기에 맞게 박스화 */
+           font-family: 'BMHANNAAir';
+            /* border: 2px solid blue;   파란색 테두리 */
+            /* padding: 8px;            텍스트와 테두리 간격 */
+            /* display: inline-block;    텍스트 크기에 맞는 테두리 */
+            /* border-radius: 10px; 둥근 테두리 */
+            /* display: inline-block;   텍스트 크기에 맞게 박스화 */
         }
 
         table {

@@ -441,6 +441,7 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: 'BMDOHYEON';
 
   a {
     color: inherit;
@@ -492,9 +493,11 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
+  font-family: 'BMDOHYEON';
+  color: #000000;
+  /* font-family: $sans-serif-narrow; */
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
@@ -514,6 +517,7 @@
 
   .nav__title {
     color: #fff;
+    font-family: "S-CoreDream-3Light";
     font-size: $type-size-6;
     background: $primary-color;
     border-start-start-radius: $border-radius;
@@ -538,6 +542,7 @@
   }
 
   a {
+    font-family: "S-CoreDream-3Light";
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
@@ -551,6 +556,7 @@
   }
 
   li ul > li a {
+    font-size: "S-CoreDream-3Light";
     padding-inline-start: 1.25rem;
     font-weight: normal;
   }
