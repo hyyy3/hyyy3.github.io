@@ -25,7 +25,6 @@ last_modified_at: 2025-03-08 20:01:01+0900
 <style>
 </style>
 <!-- <br> <a></a> -->
-
 ## CSS3 기본 선택자
 ### 전체 선택자
 ```css
@@ -81,5 +80,77 @@ class속성값 앞에 .를 붙입니다. <br>
   color: #0000ff;
 }
 ```
+<br><br>
 
+### 기본 속성 선택자
+대괄호 [] 안에는 속성 선택자를 사용합니다. 조건부로 적용하기 위해 주로 사용합니다. <br>
+**예시1: target이 "_blank"인 &lt;a&gt; 요소에만 적용**
+```css
+a[target="_blank"] {
+  /* style */
+}
+```
+<br>
+**예시2: &lt;a&gt; 중 class가 "classclass"인 요소에만 적용**
+```css
+a[class="classclass"] {
+  /* style */
+}
+```
+
+<br>
+**예시3: id가 지정된 모든 요소에 대해 적용**
+```css
+[id] {
+  /* style */
+}
+```
+
+<br>
+
+속성값으로 주어진 특정 문자열에 대해서도 조건을 적용할 수 있습니다.
+
+<details>
+  <summary><h4 style="display:inline;">📌 클릭하여 CSS 문자열 속성 선택자 형식 보기</h4></summary>
+
+  <br>
+
+  <table border="1" cellspacing="0" cellpadding="6">
+    <thead>
+      <tr>
+        <th>선택자 형식</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[attr="value"]</td>
+        <td>attr 속성 값이 정확히 value인 요소를 선택</td>
+      </tr>
+      <tr>
+        <td>[attr~="value"]</td>
+        <td>attr 속성 값이 공백으로 구분된 단어 중 하나가 value인 요소를 선택</td>
+      </tr>
+      <tr>
+        <td>[attr|="value"]</td>
+        <td>attr 속성 값이 정확히 value이거나 value로 시작하고 하이픈(-)으로 연결된 요소를 선택</td>
+      </tr>
+      <tr>
+        <td>[attr^="value"]</td>
+        <td>attr 속성 값이 value로 시작하는 요소를 선택</td>
+      </tr>
+      <tr>
+        <td>[attr$="value"]</td>
+        <td>attr 속성 값이 value로 끝나는 요소를 선택</td>
+      </tr>
+      <tr>
+        <td>[attr*="value"]</td>
+        <td>attr 속성 값에 value가 포함된 요소를 선택</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
+
+<br><br>
 ## CSS3 조합 선택자
