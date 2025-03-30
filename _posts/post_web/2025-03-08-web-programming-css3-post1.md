@@ -19,10 +19,9 @@ last_modified_at: 2025-03-08 20:01:01+0900
 ---
 
 
+<link rel="stylesheet" href="{{ '/assets/css/post_main1.css' | relative_url }}">
 
-<style>
-  <link rel="stylesheet" href="{{ '/assets/css/post_main1.css' | relative_url }}">
-</style>
+
 
 <!-- <br> <a></a> -->
 

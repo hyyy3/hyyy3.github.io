@@ -1,0 +1,48 @@
+
+
+
+
+
+body{
+    font-family: 'GowunDodum-Regular';
+}
+h2 {
+   font-family: 'BMHANNAAir';
+    /* border: 2px solid blue;   파란색 테두리 */
+    /* padding: 8px;            텍스트와 테두리 간격 */
+    /* display: inline-block;    텍스트 크기에 맞는 테두리 */
+    /* border-radius: 10px; 둥근 테두리 */
+    /* display: inline-block;   텍스트 크기에 맞게 박스화 */
+}
+
+
+table {
+    width: 100%; /* 테이블을 페이지 전체 너비에 맞춤 */
+    border-collapse: collapse; /* 테두리 겹침 제거 */
+    border: 0px solid #000;
+    table-layout: fixed;
+}
+th, td {
+    border: 1px solid #000; /* 테두리 추가 */
+    padding: 10px; /* 내부 여백 */
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+}
+th {
+    background-color: #f4f4f4; /* 헤더 배경색 */
+    font-weight: bold;
+}
+
+h3 {
+  margin: 18px 0 0 0px 
+}
+
+blockquote {
+  font-family: 'GowunDodum-Regular';
+  margin: 0;
+  padding: 10px;
+  line-height: 1.4;
+  border-left: 4px solid #aaa;
+  background-color: #f9f9f9;
+  font-style: normal; 
+}
