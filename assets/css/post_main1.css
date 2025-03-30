@@ -12,30 +12,55 @@ h2 {
     /* padding: 8px;            텍스트와 테두리 간격 */
     /* display: inline-block;    텍스트 크기에 맞는 테두리 */
     /* border-radius: 10px; 둥근 테두리 */
-    /* display: inline-block;   텍스트 크기에 맞게 박스화 */
+    /* display:
+    
+    inline-block;   텍스트 크기에 맞게 박스화 */
 }
 
+.page__content{
 
-table {
-    width: 100%; /* 테이블을 페이지 전체 너비에 맞춤 */
-    border-collapse: collapse; /* 테두리 겹침 제거 */
-    border: 0px solid #000;
-    table-layout: fixed;
-}
-th, td {
-    border: 1px solid #000; /* 테두리 추가 */
-    padding: 10px; /* 내부 여백 */
-    text-align: left; /* 텍스트 왼쪽 정렬 */
-    word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
-}
-th {
-    background-color: #f4f4f4; /* 헤더 배경색 */
-    font-weight: bold;
-}
+    p {
+        margin: 0 0 1.0em;
+    }
 
-h3 {
-  margin: 18px 0 0 0px 
-}
+    h3 {
+        margin: 32px 0 0 0px 
+      }
+    
+    h4 {
+        font-family: 'BMDOHYEON', sans-serif;
+        font-size: 16px;
+        color: #005766;
+        padding-bottom: .5em;
+        font-weight: normal;
+        border-bottom: 0px solid rgb(241.7, 242.5, 243.1);
+        margin: 36px 0 0 0px 
+      }
+    
+    
+    table {
+        width: 100%; /* 테이블을 페이지 전체 너비에 맞춤 */
+        border-collapse: collapse; /* 테두리 겹침 제거 */
+        border: 0px solid #000;
+        table-layout: fixed;
+    }
+    th, td {
+        border: 1px solid #000; /* 테두리 추가 */
+        padding: 10px; /* 내부 여백 */
+        text-align: left; /* 텍스트 왼쪽 정렬 */
+        word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+    }
+    th {
+        background-color: #f4f4f4; /* 헤더 배경색 */
+        font-weight: bold;
+    }
+    
+
+} 
+
+
+
+
 
 blockquote {
   font-family: 'GowunDodum-Regular';
@@ -46,3 +71,18 @@ blockquote {
   background-color: #f9f9f9;
   font-style: normal; 
 }
+
+.highlight pre {
+    padding: 10px;
+}
+
+pre > code.language-css {
+    background-color: #f9f9f9;
+    display: inline-block; /* 텍스트 크기에 맞게 배경 적용 */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+li::marker {
+    margin-right: 8px; /* 적용되지 않음 */
+  }
