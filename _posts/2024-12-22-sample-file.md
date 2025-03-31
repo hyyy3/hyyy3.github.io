@@ -3,7 +3,7 @@ title: "blog test용 샘플 파일2"
 excerpt: "NP"
 
 categories:
-  - Projects
+  - Projects 
 tags:
   - [study]
 
