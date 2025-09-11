@@ -52,6 +52,17 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+      {% if page.tags and page.tags.size > 0 %}
+      <div class="post-tag">
+        <ul class="post-tag-container">
+          {%- for tag in page.tags -%}
+            <li><a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="tag-link">{{ tag }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {% endif %}
+
+
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>

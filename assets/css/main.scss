@@ -81,6 +81,11 @@ body {
       color: #670000;
     }
 
+    li {
+      margin: 6px 0;
+    }
+
+
   
   }
 
@@ -109,20 +114,53 @@ body {
     // top: 20px;
 }
 
-blockquote {
-    margin: 0; /* 바깥 여백 제거 */
-    padding: 10px; /* 안쪽 여백 줄이기 */
-    line-height: 1.4; /* 줄 간격 조정 */
-    border-left: 4px solid #aaa; /* 기본 인용 세로줄 */
-    background-color: #f9f9f9; /* 선택적 배경색 */
-  }
 
+blockquote {
+  margin: 0; /* 바깥 여백 제거 */
+  padding: 10px; /* 안쪽 여백 줄이기 */
+  line-height: 1.4; /* 줄 간격 조정 */
+  border-left: 4px solid #aaa; /* 기본 인용 세로줄 */
+  background-color: #f9f9f9; /* 선택적 배경색 */
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  padding-inline: 1em;
+  font-style: normal; /* ← italic 대신 normal */
+  border-inline-start: 0.25em solid $primary-color;
+  margin-bottom: 22px;
+
+  cite {
+    font-style: italic;
+
+    &::before {
+      content: "\2014";
+      padding-inline-end: 5px;
+    }
+  }
+}
   
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
 
-
-
+li > p {
+  display: inline;  /* 줄바꿈 제거 */
+}
 
 
 
