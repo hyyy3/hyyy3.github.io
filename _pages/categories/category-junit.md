@@ -1,9 +1,9 @@
 ---
-title: "AWS"
+title: "Junit"
 layout: category
-permalink: /blog/cloud/aws/
+permalink: /blog/programming/junit/
 author_profile: true
-taxonomy: AWS
+taxonomy: Junit
 sidebar:
   nav: "categories"
 ---

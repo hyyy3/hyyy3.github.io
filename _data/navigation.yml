@@ -52,6 +52,8 @@ categories:
         url: /blog/programming/modernjava/
       - title: "C++"
         url: /blog/programming/cpp/
+      - title: "Junit"
+        url: /blog/programming/junit/
   
   - title: "Web Development"
     children:
@@ -61,8 +63,6 @@ categories:
         url: /blog/programming/jsp/
       - title: "Spring"
         url: /blog/programming/spring/
-      - title: "AWS"
-        url: /blog/programming/aws/
 
   - title: "Algorithms"
     children:
@@ -74,6 +74,16 @@ categories:
         url: /blog/algorithms/backjoon/
       - title: "ps others"
         url: /blog/algorithms/ps/
+
+  - title: "Cloud/Infra"
+    children:
+      - title: "AWS"
+        url: /blog/cloud/aws/
+      - title: "Docker/kubernetes"
+        url: /blog/cloud/docker/
+      - title: "Kafka"
+        url: /blog/cloud/kafka/
+
 
   - title: "Game Dev"
     children:

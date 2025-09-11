@@ -1,9 +1,9 @@
 ---
-title: "AWS"
+title: "Kafka"
 layout: category
-permalink: /blog/cloud/aws/
+permalink: /blog/cloud/kafka/
 author_profile: true
-taxonomy: AWS
+taxonomy: Kafka
 sidebar:
   nav: "categories"
 ---
