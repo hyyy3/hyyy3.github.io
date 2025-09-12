@@ -2,13 +2,20 @@
    Syntax highlighting
    ========================================================================== */
 
+
+.test-font {
+    font-family: $JetBrainsMono, monospace !important;
+    font-weight:500;
+}
+
 div.highlighter-rouge,
 figure.highlight {
   position: relative;
   margin-bottom: 1em;
   background: $base00;
   color: $base05;
-  font-family: $monospace;
+  font-family: $JetBrainsMono, monospace !important;
+  font-weight:500;
   font-size: 0.9em;
   line-height: 1.5;
   border-radius: $border-radius;
@@ -24,6 +31,36 @@ figure.highlight {
     padding: 0.8em;
   }
 }
+
+/* 코드 블록 하이라이터에 언어 라벨 추가 */
+.highlighter-rouge .highlight {
+    position: relative;
+}
+
+.highlighter-rouge .highlight::before {
+    content: attr(class);
+    position: absolute;
+    top: 0.3rem; /* 상단 여백 조절 */
+    right: 0.5rem; /* 우측 여백 조절 */
+    padding: 0.1rem 0.5rem;
+    font-size: 0.9em; 
+    font-family: $JetBrainsMono, monospace !important;
+    font-weight: 200;
+    color: #fff;
+    background-color: transparent; /* 배경색 조절 */
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+    z-index: 1; /* 다른 요소 위에 표시되도록 설정 */
+}
+
+.highlighter-rouge.language-java .highlight::before { content: "Java"; }
+.highlighter-rouge.language-javascript .highlight::before { content: "JavaScript"; }
+.highlighter-rouge.language-python .highlight::before { content: "Python"; }
+.highlighter-rouge.language-ruby .highlight::before { content: "Ruby"; }
+.highlighter-rouge.language-css .highlight::before { content: "CSS"; }
+.highlighter-rouge.language-html .highlight::before { content: "HTML"; }
+/* 필요한 언어를 추가하세요. */
+
 
 .highlight table {
   margin-bottom: 0;

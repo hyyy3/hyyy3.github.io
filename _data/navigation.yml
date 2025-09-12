@@ -13,6 +13,8 @@
 
 # main links
 main:
+  - title: "Search"
+    url: /blog/search/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
