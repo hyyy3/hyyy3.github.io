@@ -45,6 +45,8 @@ categories:
         url: /blog/cs/db/
       - title: "Network"
         url: /blog/cs/network/
+      - title: "Software Engineering"
+        url: /blog/cs/se/
 
   - title: "Programming Language"
     children:
