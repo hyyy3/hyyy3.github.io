@@ -92,12 +92,14 @@ tail -f app.log
 
 
 
-
-
-
-
 ### MySQL
+- mysql 시작 <br> net start mysql, sc.exe start mysql
 
+- mysql 접속 <br> mysql -u root -p  (mysql로 표시됨)
+
+- mysql 서버 실행여부 확인 <br>  sc.exe query mysql
+
+- mysql 종료 <br> 서버 안에서: shutdown;
 
 - 테이블 삭제 <br>
 SET FOREIGN_KEY_CHECKS = 0;
@@ -111,6 +113,18 @@ mysql -h moneymate-db.clceosi6aceb.ap-northeast-2.rds.amazonaws.com -P 3306 -u a
 
 
 
+## MariaDB
+- mariaDB 시작 <br> net start mariaDB, sc.exe start mariadb
+
+- mariaDB 접속 <br> mysql -u root -p  (mysql로 표시됨)
+
+- mariaDB 서버 실행여부 확인 <br>  sc.exe query mariadb  ,          Get-Service mariadb (PS)
+
+- mariaDB 종료 <br> 서버 안에서: shutdown; (가장 안정),  외부에서 프로세스 종료: net stop MySQL  (또는 sc stop MySQL) 
+
+- 3306 포트 열려있는지 확인 <br> netstat -ano | findstr 3306
+
+- 나가기 <br> quit;
 
 
 
