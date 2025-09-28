@@ -39,11 +39,20 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ### git
 
 ```bash
-
+ntrac
 git reset --hard HEAD       # 로컬 변경 사항 초기화
-git clean -fd               # untracked 파일/디렉토리 삭제
+git clean -fd               # uked 파일/디렉토리 삭제
 git pull origin main        # 최신 코드 가져오기 (main 브랜치 기준)
 
+git config --global user.name "hyyy3"
+git config --global user.email "25hanayuki@gmail.com"
+git config --global --list   # 전역 설정 확인
+git config --list            # 현재 저장소에서 적용된 설정 확인
+
+
+
+
+## Github blog
 
 ```
 
@@ -111,6 +120,15 @@ SET FOREIGN_KEY_CHECKS = 1;
 - dump (rds) <br>
 mysql -h moneymate-db.clceosi6aceb.ap-northeast-2.rds.amazonaws.com -P 3306 -u admin -p test1_bkp
 
+- rds에서 SET SQL_SAFE_UPDATES = 0; 설정: <br>
+Workbench 메뉴 → Edit → Preferences → SQL Editor → Safe Updates (rejects UPDATEs and DELETEs with no key in WHERE clause) 체크 해제
+
+```sql
+
+
+
+```
+
 
 
 ## MariaDB
@@ -133,3 +151,66 @@ mysql -h moneymate-db.clceosi6aceb.ap-northeast-2.rds.amazonaws.com -P 3306 -u a
 " " 작은공백 
 
 "⠀" 큰공백
+
+
+
+
+## WSL
+```bash
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatForm /all /norestart
+
+wsl --update
+wsl --set-default-version 2
+
+wsl --install Ubuntu-24.04
+
+# 만약 파일 손상으로 타임아웃 발생시 https://github.com/microsoft/WSL/releases 에서 최신 버전 다운받기
+
+
+# nvm 다운로드 및 설치:  Ubuntu에서 실행해야함
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+# Node.js 다운로드 및 설치:
+nvm install 22
+
+# Node.js 버전 확인:
+node -v # "v22.20.0"가 출력되어야 합니다.
+nvm current # "v22.20.0"가 출력되어야 합니다.
+
+# Verify the Node.js version:
+node -v # Should print "v22.20.0".
+
+# npm 버전 확인:
+npm -v # 10.9.3가 출력되어야 합니다.
+
+
+
+
+# claude-code 설치
+npm install -g @anthropic-ai/claude-code
+
+git clone https://github.com/sysnet4admin/_Book_Claude-Code.git
+
+
+
+
+
+```
+
+
+
+
+
+
+
+## 환경 변수 설정
+```bash
+시스템 변수 PATH  JAVA_HOME 이름으로 C:\Program Files\Java\jdk-21
+
+시스템 변수 CLASSPATH 이름으로 %JAVA_HOME%\lib
+
+시스템 변수 Path에 %JAVA_HOME%\bin 추가
+
+```
