@@ -207,7 +207,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+# hard_wrap: true 로 바꾸면 <br> 자동 줄바꿈 입력됨
 # Markdown Processing
 kramdown:
   input: GFM

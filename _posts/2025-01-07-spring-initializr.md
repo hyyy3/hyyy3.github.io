@@ -22,18 +22,20 @@ last_modified_at: 2025-01-07 02:05:01+0900
 
 ## **Spring Initializr로 프로젝트 생성하기**
 
-<img src="{{ site.baseurl }}/assets/images/spring/Spring_initializr.jpg" alt="Spring Initializr" width="600" height="450">
 
-<p>Spring Initializr는 Spring boot 기반으로 Spring 관련 프로젝트를 만드는 기능을 제공해준다.
-<p>
-[Spring Initializr](https://start.spring.io)에 접속하면 위와 같은 설정 화면이 보일 것이다.
+
+![Spring_initializr](/assets/images/2025-01-07-spring-initializr/Spring_initializr-1760121675406-12.jpg)
+
+Spring Initializr는 Spring Boot 기반으로 Spring 관련 프로젝트를 만드는 기능을 제공해준다.
+
+[Spring Initializr](https://start.spring.io)에 접속하면 위와 같은 설정 화면이 보일 것이다.  
 각 항목의 요소는 다음과 같습니다.
 
 ---
 
 ### **Project**
 **Maven**, **Gradle** 중 원하는 빌드 도구를 선택한다.
-<p> 최근에는 Gradle을 많이 사용하는 추세이다.
+<p> 최근에는 Gradle을 많이 사용하는 추세이다.</p>
 
 ---
 
@@ -77,4 +79,9 @@ last_modified_at: 2025-01-07 02:05:01+0900
 
 모든 설정을 완료한 후 **"Generate"** 버튼을 클릭하면 위 설정 내용에 따라 zip 파일로 다운로드 받을 수 있다.
 압축을 푼 폴더를를 IDE (IntelliJ IDEA / Eclipse)에서 열면 기본 설정은 끝난다.
-
+   
+  
+    
+      
+        
+## Intellij IDEA로 프로젝트 생성하기
