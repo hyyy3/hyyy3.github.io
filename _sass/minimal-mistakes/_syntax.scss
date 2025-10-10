@@ -60,6 +60,8 @@ figure.highlight {
 .highlighter-rouge.language-css .highlight::before { content: "CSS"; }
 .highlighter-rouge.language-html .highlight::before { content: "HTML"; }
 .highlighter-rouge.language-sql .highlight::before { content: "SQL"; }
+.highlighter-rouge.language-bash .highlight::before { content: "Bash"; }
+.highlighter-rouge.language-c .highlight::before { content: "C"; }
 /* 필요한 언어를 추가하세요. */
 
 

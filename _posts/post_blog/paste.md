@@ -88,9 +88,10 @@ tail -f app.log
 ### Jekyll
 
 
+gem install jekyll bundler
+bundle install
 
-
-
+bundle exec jekyll serve
 
 ### MySQL
 - mysql 시작 <br> net start mysql, sc.exe start mysql
