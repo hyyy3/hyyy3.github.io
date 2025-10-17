@@ -138,7 +138,7 @@ body {
     }
 
     li::marker {
-      margin-right: 4px; /* 원하는 값으로 조절 */
+      margin-right: 4px; 
     }
   
     line-height: 1.6;
@@ -180,15 +180,15 @@ hr {
 }
 
 blockquote {
-  margin: 0; /* 바깥 여백 제거 */
-  padding: 10px; /* 안쪽 여백 줄이기 */
-  line-height: 1.4; /* 줄 간격 조정 */
-  border-left: 4px solid #aaa; /* 기본 인용 세로줄 */
-  background-color: #f9f9f9; /* 선택적 배경색 */
+  margin: 0; 
+  padding: 10px; 
+  line-height: 1.4; 
+  border-left: 4px solid #aaa; // 기본 인용 세로줄
+  background-color: #f9f9f9;
   margin-block-start: 1em;
   margin-inline-end: 1em;
   padding-inline: 1em;
-  font-style: normal; /* ← italic 대신 normal */
+  font-style: normal; // italic 대신 
   border-inline-start: 0.25em solid $primary-color;
   margin-bottom: 22px;
 
@@ -273,6 +273,12 @@ li > p {
   color:blue;
   font-size: 20;
   font-weight: 700;
+}
+
+.refer{
+  color:#777;
+  font-size: 10px !important;
+  font-style: italic;
 }
 
   /*
